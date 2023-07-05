@@ -1,10 +1,14 @@
 import './App.css';
+import Footer from './footer';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <>
+      <Header></Header>
+      <Nav></Nav>
+      <Main></Main>
+      <Footer></Footer>
+    </>
   );
 }
 

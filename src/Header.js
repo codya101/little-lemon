@@ -1,6 +1,8 @@
 function Header() {
     return (
-      <header></header>
+      <header>
+        <img src="navLogo.svg"></img>
+      </header>
     );
 }
   

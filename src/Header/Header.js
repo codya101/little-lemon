@@ -1,3 +1,6 @@
+import './Header.css';
+import { NavLink } from 'react-router-dom';
+
 function Header() {
     return (
       <header>
@@ -5,5 +8,5 @@ function Header() {
       </header>
     );
 }
-  
+
 export default Header;

@@ -1,3 +1,5 @@
+import './Nav.css';
+
 function Nav() {
     return (
       <nav>
@@ -12,5 +14,5 @@ function Nav() {
       </nav>
     );
 }
-  
+
 export default Nav;

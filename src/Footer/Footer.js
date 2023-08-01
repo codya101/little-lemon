@@ -1,10 +1,12 @@
+import './Footer.css';
+
 function Footer() {
     return (
       <footer>
         <img src="footerLogo.png"></img>
-        <h1>Navigation</h1>
         <nav>
           <ul>
+            <h1>Navigation</h1>
             <li><a href="/home">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/menu">Menu</a></li>
@@ -13,17 +15,17 @@ function Footer() {
             <li><a href="/login">Login</a></li>
           </ul>
         </nav>
-        <h1>Contact</h1>
         <nav>
           <ul>
+            <h1>Contact</h1>
             <li>Address</li>
             <li>Phone Number</li>
             <li>Email</li>
           </ul>
         </nav>
-        <h1>Social Media</h1>
         <nav>
           <ul>
+            <h1>Social Media</h1>
             <li>Address</li>
             <li>Phone Number</li>
             <li>Email</li>
@@ -32,5 +34,4 @@ function Footer() {
       </footer>
     );
 }
-  
 export default Footer;

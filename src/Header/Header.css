@@ -7,7 +7,7 @@ header {
     margin: 0 auto;
 }
 
-header img {
+.logo-img {
     width: 200px;
 }
 
@@ -24,13 +24,20 @@ header img {
     color: #495e57;
 }
 
+.hamburger, .close-hamburger {
+    display: none;
+}
+
+
+
+
 @media screen and (max-width: 1024px) {
     header {
         width: 100%;
         padding: 10px 30px;
     }
 
-    header img {
+    .logo-img {
         width: 150px;
     }
 
@@ -48,6 +55,11 @@ header img {
         padding: 80px 30px 20px 120px;
     }
 
+    .nav-menu.active {
+        right: 0;
+        top: 0;
+    }
+
     .nav-menu li {
         padding: 10px 0;
     }
@@ -55,5 +67,11 @@ header img {
     .nav-menu li a {
         color: #333333;
         font-size: smaller;
+    }
+
+    .hamburger, .close-hamburger {
+        line-height: 0.8;
+        display: initial;
+        z-index: 11;
     }
 }
